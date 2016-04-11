@@ -6,21 +6,21 @@ module.exports = function (path) {
   const factory = (id) => {
     return {
       next () {
-        return new Promise((fulfill, reject) => {
+        return new Promise((resolve, reject) => {
           id++
           fs.writeFile(path, id, (error) => {
             if (error) return reject(error)
-            fulfill(id)
+            resolve(id)
           })
         })
       }
     }
   }
 
-  return new Promise((fulfill, reject) => {
+  return new Promise((resolve, reject) => {
     fs.readFile(path, (error, data) => {
       const lastId = error ? 0 : parseInt(data, 10)
-      fulfill(factory(lastId))
+      resolve(factory(lastId))
     })
   })
 }

@@ -4,7 +4,7 @@
   "description": "int sequece generator, based on file",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/standard/bin/cmd.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/stockulus/seq-id-generator/issues"
   },
-  "homepage": "https://github.com/stockulus/seq-id-generator#readme"
+  "homepage": "https://github.com/stockulus/seq-id-generator#readme",
+  "devDependencies": {
+    "standard": "^6.0.8",
+    "tape": "4.5.1"
+  }
 }
