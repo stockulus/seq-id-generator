@@ -1,6 +1,6 @@
 {
   "name": "seq-id-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "int sequece generator, based on file",
   "main": "index.js",
   "scripts": {
