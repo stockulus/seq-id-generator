@@ -1,6 +1,6 @@
 # seq id generator
 
-generates an sequence id, bases on a file
+generates an sequence id, based on a file
 
 ## install
 npm i seq-id-generator
