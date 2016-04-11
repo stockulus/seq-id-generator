@@ -2,6 +2,12 @@
 
 generates an sequence id, bases on a file
 
+## install
+npm i seq-id-generator
+
+## test
+npm test
+
 ```js
 const seqIdGenerator = require('seq-id-generator')
 
