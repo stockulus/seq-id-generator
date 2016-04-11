@@ -1,0 +1,24 @@
+{
+  "name": "seq-id-generator",
+  "version": "1.0.0",
+  "description": "int sequece generator, based on file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stockulus/seq-id-generator.git"
+  },
+  "keywords": [
+    "sequence",
+    "file",
+    "int"
+  ],
+  "author": "stockulus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stockulus/seq-id-generator/issues"
+  },
+  "homepage": "https://github.com/stockulus/seq-id-generator#readme"
+}
