@@ -2,7 +2,7 @@
 
 const fs = require('fs')
 
-module.exports = function (path) {
+module.exports = function seqIdGenerator (path) {
   const factory = (id) => {
     return {
       next () {
