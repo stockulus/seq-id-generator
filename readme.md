@@ -3,7 +3,7 @@
 generates an sequence id, bases on a file
 
 ```js
-const seqIdGenerator = require('seq-id-generator');
+const seqIdGenerator = require('seq-id-generator')
 
 seqIdGenerator(path)
   .then((generator) => generator.next())
