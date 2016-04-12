@@ -26,3 +26,13 @@ test('with file', (assert) => {
     })
     .catch((error) => assert.error(error))
 })
+
+test('with file and formating', (assert) => {
+  seqIdGenerator(path, (id) => `A-${id}`)
+    .then((generator) => generator.next())
+    .then((id) => {
+      assert.equal(id, 'A-3')
+      assert.end()
+    })
+    .catch((error) => assert.error(error))
+})
