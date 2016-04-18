@@ -36,3 +36,14 @@ test('with file and formating', (assert) => {
     })
     .catch((error) => assert.error(error))
 })
+
+test('with file and formating callback style', (assert) => {
+  seqIdGenerator(path, (id) => `A-${id}`, (error, generator) => {
+    if (error) return assert.error(error)
+    generator.next((error, id) => {
+      if (error) return assert.error(error)
+      assert.equal(id, 'A-4')
+      assert.end()
+    })
+  })
+})
