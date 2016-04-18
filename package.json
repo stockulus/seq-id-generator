@@ -1,6 +1,6 @@
 {
   "name": "seq-id-generator",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "int sequence generator, based on file",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,6 @@
   },
   "engine": "node >= 5.10.0",
   "dependencies": {
-    "polygoat": "^1.1.4"
+    "polygoat": "1.1.4"
   }
 }
