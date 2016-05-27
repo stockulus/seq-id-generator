@@ -23,7 +23,7 @@
   "homepage": "https://github.com/stockulus/seq-id-generator#readme",
   "devDependencies": {
     "faucet": "0.0.1",
-    "standard": "7.1.0",
+    "standard": "7.1.1",
     "tape": "4.5.1"
   },
   "engine": "node >= 5.10.0",
