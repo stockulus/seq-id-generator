@@ -16,7 +16,7 @@
     "file",
     "int"
   ],
-  "author": "stockulus",
+  "author": "Christoph Stock (@stockulus)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/stockulus/seq-id-generator/issues"
