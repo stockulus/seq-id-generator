@@ -47,3 +47,21 @@ test('with file and formating callback style', (assert) => {
     })
   })
 })
+
+test('paralell test', (assert) => {
+  seqIdGenerator(path, (id) => `A-${id}`, (error, generator) => {
+    if (error) return assert.error(error)
+
+    generator.next()
+    generator.next()
+    generator.next()
+    generator.next()
+    generator.next()
+
+    generator.next((error, id) => {
+      if (error) return assert.error(error)
+      assert.equal(id, 'A-10')
+      assert.end()
+    })
+  })
+})
