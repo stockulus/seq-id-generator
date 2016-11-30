@@ -24,8 +24,8 @@
   "homepage": "https://github.com/stockulus/seq-id-generator#readme",
   "devDependencies": {
     "faucet": "0.0.1",
-    "standard": "8.5.0",
-    "tape": "4.6.2"
+    "standard": "8.6.0",
+    "tape": "4.6.3"
   },
   "engine": "node >= 5.10.0",
   "dependencies": {
